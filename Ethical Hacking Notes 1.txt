@@ -1,0 +1,45 @@
+ETHICAL HACKING MMG
+=============================================================================================================================================
+
+
+TERMINOLOGY {
+
+	[Footprinting] - finding info (ip, etc)
+
+	[FUD] (anti-virus cannot detect) companies pay good money
+
+	[RAT] (remote administration tools) usb, zip file, to infect other computers, enslave. anomonizes you, makes it hard to detect
+
+	[DDOS] (multple computers)
+
+	[Root Kit] - able to hide program, hide process in task manager.
+
+	[Fishing] - get an email with a link, and tricks you. (rare nowadays), rather dns servers get changed on routers, 
+	all requests get redirected to the dns server.
+	Facebook, and other sites, and you wouldn't tell. (can track creditionals)
+
+	[SQL Injections] - simply passing sql curies to http request, if server-side is not formated can cause a serious problem. a lot of websites are vulnerable
+
+	[VPN] - Fast. Routs all traffic to VPN provider, heavly encrypted. No real way to track you unless VPN provider gives it up.
+
+	[Proxy] - Slow. socks5 proxys, proxy chains, routs your connection to several proxies. (connecting to a lot of proxies slow internet)
+
+	[Tor] - much faster than proxy, less faster than vpn. Can route traffic to certain routes. Ways to track you, but 99% of time you're fine. Access to dark web. (.onion websites)
+
+	[VPS] - virtual private server, security layer, useful with a apachi server
+
+	[Key Loggers] - tools to steal creditionals, or extract information. Can configure it to send to a mail addres (fttp server) and more
+
+	[Terminal] - linux terminal is very powerful, 
+
+	[Firewall] - dont use windows, linux firewall is open source and has a ridiculous amounts of options. ip tables command?
+
+	[Reverse-shells] - Program which infects a device, then that program opens up a reverse connection to from that device back to you.
+	you can pass commands and control the system even if you arent near it. Some routers have firewalls, which you need to address.
+	but usually you do private devices, attack home router, change dns server there, and then steal or extract information.
+}
+
+
+REFRENCE {
+https://www.youtube.com/watch?v=vg9cNFPQFqM
+}
